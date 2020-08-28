@@ -30,7 +30,7 @@ body, html {
 /* pagelink */
 
  ul {
-		transform: translate(45%,-1%);
+		transform: translate(30%,-1%);
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -47,7 +47,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 25px 82px;
+  padding: 25px 92px;
   text-decoration: none;
 }
 
@@ -61,7 +61,7 @@ li a:hover {
 .box {
   border: 2px solid black;
 		width: 560px;
-  height: 200px;
+  height: 400px;
   padding: 50px;
 
 }
