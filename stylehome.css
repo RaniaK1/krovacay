@@ -1,0 +1,70 @@
+
+@charset "UTF-8";
+/* CSS Document */
+
+
+body, html {
+    background-color: #C68E17;
+  height: 100%;
+  margin: 0;
+  font-family:  fantasy;
+}
+
+
+
+.headerh-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("headerh.jpg");
+  height: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.headerh-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/* pagelink */
+
+ ul {
+		transform: translate(-0.2%,-1%);
+  list-style-type: none;
+  margin: 0;
+  padding: 5;
+  overflow: hidden;
+  background-color: white;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 29px 61px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color:#E2E2E2;
+}
+
+/*Box for Text*/
+
+.box {
+  border: 2px solid black;
+		width: 540px;
+  height: 200px;
+  padding: 50px;
+
+}

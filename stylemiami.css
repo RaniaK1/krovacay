@@ -1,0 +1,284 @@
+-=@charset "UTF-8";
+/* CSS Document */
+
+
+body, html {
+    background-color: beige;
+  height: 100%;
+  margin: 0;
+  font-family:  fantasy;
+}
+
+.palm-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("palmtree.jpg");
+  height: 20%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.palm-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+  color: white;
+}
+
+/* pagelink */
+
+ ul {
+		transform: translate(30%,-1%);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 67px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color:#E2E2E2;
+}
+
+/*Box for Text*/
+
+.box {
+  border: 2px solid black;
+		width: 560px;
+  height: 200px;
+  padding: 50px;
+
+}
+
+/* Header for MIAMI */
+
+h2{
+     text-align: center;
+     font-size: 19px;
+     color: "black";
+    font-family: cursive;
+    background-color: white;
+   border: 2px solid black;
+   margin: 2px; padding: 2px; width: 35%;
+   transform: translate(85%, 160%);
+
+}
+
+/* Header for MIAMI */
+
+.slideshow-miami {transform: translate(-2%, 64%);
+	width:1860px; height:90px; overflow:hidden; position:relative; }
+
+.slideshow-miami img{ position:absolute;animation:slideshow-miami 20s infinite; opacity:0; width: 100%; height: auto; display: inline-block;}
+
+@keyframes slideshow-miami {15%{opacity:1;} 20%{opacity:0;}}
+.slideshow-miami img:nth-child(4){animation-delay:0s;}
+.slideshow-miami img:nth-child(3){animation-delay:4s;}
+.slideshow-miami img:nth-child(2){animation-delay:8s;}
+.slideshow-miami img:nth-child(1){animation-delay:12s;}
+.slideshow-miami img:nth-child(5){animation-delay:16s;}
+.slideshow-miami img:nth-child(6){animation-delay:20s;}
+
+
+
+			.slideshow-miami {
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+
+}
+
+
+
+
+/*Circle*/
+
+.circular--landscape img{ position:absolute;animation:circular--landscape 6s infinite; opacity:0; width: 100%; height: auto; display: inline-block;}
+
+@keyframes circular--landscape {25%{opacity:1;} 6%{opacity:0;}}
+.circular--landscape img:nth-child(1){animation-delay:0s;}
+.circular--landscape img:nth-child(2){animation-delay:3s;}
+.circular--landscape img:nth-child(3){animation-delay:6s;}
+
+.circular--landscape {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 170%;
+}
+
+.circular--landscape img {
+  width: auto;
+  height: 120%;
+  margin-left: -50px;
+}
+
+.circular--landscape {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(-156%,290%);
+
+
+}
+
+
+/*Circle 1*/
+
+.circular--landscap1 img{ position:absolute;animation:circular--landscap1 6s infinite; opacity:0; width: 100%; height: auto; display: inline-block;}
+
+@keyframes circular--landscap1 {25%{opacity:1;} 6%{opacity:0;}}
+.circular--landscap1 img:nth-child(1){animation-delay:0s;}
+.circular--landscap1 img:nth-child(2){animation-delay:3s;}
+.circular--landscap1 img:nth-child(3){animation-delay:6s;}
+
+.circular--landscap1 {
+  display: inline-block;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 170%;
+}
+
+.circular--landscap1 img {
+  width: auto;
+  height: 120%;
+  margin-left: -50px;
+}
+
+.circular--landscap1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(160%,-335%);
+
+
+}
+/* Slideshow 2 */
+
+{box-sizing: border-box}
+.mySlides1, .mySlides2 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  transform: translate(-65%, -30%);
+
+	width:550px; height:690px;
+  overflow:hidden;
+  position:relative;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+/* Slideshow 3 */
+
+{box-sizing: border-box}
+.mySlides1, .mySlides3 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container1 {
+  transform: translate(70%, -130%);
+	width:550px; height:690px;
+  overflow:hidden;
+  position:relative;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.slide-container {
+  max-width: 1000px;
+  transform: translate(2%, -136%);
+  width:650px; height:590px;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.slide-container2 {
+  max-width: 1000px;
+  transform: translate(117%, -236%);
+  width:650px; height:590px;
+  overflow: auto;
+  white-space: nowrap;
+}
